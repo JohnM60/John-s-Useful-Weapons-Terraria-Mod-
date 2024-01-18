@@ -1,0 +1,53 @@
+Mods: {
+	Johns_Useful_Weapons: {
+		Buffs: {
+			GrowthDebuff.DisplayName: '''growth Debuff									Description: You are giant'''
+
+			ShrinkDebuff: {
+				DisplayName: shrink Debuff
+				Description: You are tiny
+			}
+
+			FriendlyDebuff: {
+				DisplayName: Friendly Debuff
+				Description: You are friendly
+			}
+
+			HostileDebuff: {
+				DisplayName: Hostile Debuff
+				Description: You are hostile
+			}
+		}
+
+		Items: {
+			GrowthSword: {
+				DisplayName: Growth Sword
+				Tooltip: Makes enemies larger
+			}
+
+			ShrinkSword: {
+				DisplayName: Shrink Sword
+				Tooltip: Makes enemies smaller
+			}
+
+			SpawnerSword: {
+				DisplayName: Spawner Sword
+				Tooltip: Spawns clones of an enemy
+			}
+
+			FriendlySword: {
+				DisplayName: Friendly Sword
+				Tooltip: Makes enemies friendly
+			}
+
+			HostileSword: {
+				DisplayName: Hostile Sword
+				Tooltip:
+					'''
+					Makes friendly npcs hostile
+					May hurt the player
+					'''
+			}
+		}
+	}
+}

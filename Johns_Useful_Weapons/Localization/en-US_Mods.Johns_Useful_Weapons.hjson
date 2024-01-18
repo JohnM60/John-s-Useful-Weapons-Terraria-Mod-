@@ -1,0 +1,35 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	ShrinkSword: {
+	}
+
+	GrowthSword: {
+	}
+
+	HostileSword: {
+	}
+}
+
+Buffs: {
+	ExampleShrinkDebuff: {
+		DisplayName: Example Shrink Debuff
+		Description: Mods.FirstMod.Buffs.ExampleShrinkDebuff.Description
+	}
+
+	growthDebuff: {
+	}
+
+	shrinkDebuff: {
+	}
+
+	GrowthDebuff.Description: Mods.Johns_Useful_Weapons.Buffs.GrowthDebuff.Description
+
+	ShrinkDebuff: {
+	}
+
+	HostileDebuff: {
+	}
+}
+
+Projectiles.HostileProjectile.DisplayName: Hostile Projectile

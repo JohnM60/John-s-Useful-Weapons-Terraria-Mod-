@@ -1,0 +1,5 @@
+This mod adds cool items that modify the stats of npcs
+-Growth sword, used to make enemies bigger
+-Shrink sword, used to make enemies smaller
+-Spawner sword, used to clone enemies
+Made by: John M
