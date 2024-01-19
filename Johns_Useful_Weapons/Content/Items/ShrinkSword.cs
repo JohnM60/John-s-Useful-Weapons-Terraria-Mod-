@@ -7,13 +7,12 @@ namespace Johns_Useful_Weapons.Content.Items
 {
 	public class ShrinkSword : ModItem
 	{
-        // The Display Name and Tooltip of this item can be edited in the Localization/en-US_Mods.FirstMod.hjson file.
 		public override void SetDefaults()
 		{
 			Item.damage = 1;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 80;
-			Item.height = 400;
+			Item.width = 40;
+			Item.height = 40;
 			Item.useTime = 60;
 			Item.useAnimation = 20;
 			Item.useStyle = ItemUseStyleID.Swing;
@@ -24,16 +23,33 @@ namespace Johns_Useful_Weapons.Content.Items
 			Item.autoReuse = true;
 			Item.noMelee = false;
 		}
-
+		//use iron/lead bars and some small critters in the recipe
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddIngredient(ItemID.IronBar, 10);
+			recipe.AddIngredient(ItemID.Bunny, 2);
+			recipe.AddIngredient(ItemID.Goldfish, 2);
+			recipe.AddIngredient(ItemID.Squirrel, 2);
+			recipe.AddIngredient(ItemID.Worm, 2);
+			recipe.AddIngredient(ItemID.Grubby, 2);
+			recipe.AddIngredient(ItemID.Firefly, 2);
+			recipe.AddTile(TileID.Anvils);
+			recipe.Register();
+
+			recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.LeadBar, 10);
+			recipe.AddIngredient(ItemID.Bunny, 2);
+			recipe.AddIngredient(ItemID.Goldfish, 2);
+			recipe.AddIngredient(ItemID.Squirrel, 2);
+			recipe.AddIngredient(ItemID.Worm, 2);
+			recipe.AddIngredient(ItemID.Grubby, 2);
+			recipe.AddIngredient(ItemID.Firefly, 2);
+			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}
 
-	 	//infict a debuff to an enemy
+	 	//infict a debuff to an enemy that makes it smaller
 		public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone) 
 		{
 			target.AddBuff(ModContent.BuffType<ShrinkDebuff>(), 1);

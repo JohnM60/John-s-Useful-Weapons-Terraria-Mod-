@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
+//used to modify the buffs applied to npcs
 namespace Johns_Useful_Weapons.Common.GlobalNPCs
 {
 	internal class DamageModificationGlobalNPCs : GlobalNPC

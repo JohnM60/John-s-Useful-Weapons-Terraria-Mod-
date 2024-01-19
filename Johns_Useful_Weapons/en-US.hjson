@@ -48,6 +48,11 @@ Mods: {
 					May hurt the player
 					'''
 			}
+
+			AiChangerSword: {
+				DisplayName: AI Changer Sword
+				Tooltip: Changes the AI of enemies
+			}
 		}
 	}
 }
