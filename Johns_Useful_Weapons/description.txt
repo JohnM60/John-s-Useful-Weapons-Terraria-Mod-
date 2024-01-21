@@ -1,5 +1,9 @@
 This mod adds cool items that modify the stats of npcs
 -Growth sword, used to make enemies bigger
 -Shrink sword, used to make enemies smaller
+-Friendly sword, used to make enemies Friendly
+-Hostile sword, used to make friendly npcs Hostile
+-AI changer sword, used to change the AI of enemies
 -Spawner sword, used to clone enemies
+-Projectile spawner sword, used to spawn random projectiles
 Made by: John M

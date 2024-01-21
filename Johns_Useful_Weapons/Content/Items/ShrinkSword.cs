@@ -28,27 +28,27 @@ namespace Johns_Useful_Weapons.Content.Items
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.IronBar, 10);
-			recipe.AddIngredient(ItemID.Bunny, 2);
-			recipe.AddIngredient(ItemID.Goldfish, 2);
-			recipe.AddIngredient(ItemID.Squirrel, 2);
-			recipe.AddIngredient(ItemID.Worm, 2);
-			recipe.AddIngredient(ItemID.Grubby, 2);
-			recipe.AddIngredient(ItemID.Firefly, 2);
+			recipe.AddIngredient(ItemID.Bunny, 5);
+			recipe.AddIngredient(ItemID.Goldfish, 5);
+			recipe.AddIngredient(ItemID.Squirrel, 5);
+			recipe.AddIngredient(ItemID.Worm, 5);
+			recipe.AddIngredient(ItemID.Grubby, 5);
+			recipe.AddIngredient(ItemID.Firefly, 5);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 
 			recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.LeadBar, 10);
-			recipe.AddIngredient(ItemID.Bunny, 2);
-			recipe.AddIngredient(ItemID.Goldfish, 2);
-			recipe.AddIngredient(ItemID.Squirrel, 2);
-			recipe.AddIngredient(ItemID.Worm, 2);
-			recipe.AddIngredient(ItemID.Grubby, 2);
-			recipe.AddIngredient(ItemID.Firefly, 2);
+			recipe.AddIngredient(ItemID.Bunny, 5);
+			recipe.AddIngredient(ItemID.Goldfish, 5);
+			recipe.AddIngredient(ItemID.Squirrel, 5);
+			recipe.AddIngredient(ItemID.Worm, 5);
+			recipe.AddIngredient(ItemID.Grubby, 5);
+			recipe.AddIngredient(ItemID.Firefly, 5);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}
-
+		
 	 	//infict a debuff to an enemy that makes it smaller
 		public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone) 
 		{

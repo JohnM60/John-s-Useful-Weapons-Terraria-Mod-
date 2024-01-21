@@ -31,20 +31,20 @@ namespace Johns_Useful_Weapons.Content.Items
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.IronBar, 10);
             recipe.AddIngredient(ItemID.Lens, 5);
-            recipe.AddIngredient(ItemID.FlinxFur,5);
-            recipe.AddIngredient(ItemID.Gel,20);
-            recipe.AddIngredient(ItemID.Stinger,5);
-            recipe.AddIngredient(ItemID.AntlionMandible,5);
+            recipe.AddIngredient(ItemID.FlinxFur, 5);
+            recipe.AddIngredient(ItemID.Gel, 20);
+            recipe.AddIngredient(ItemID.Stinger, 5);
+            recipe.AddIngredient(ItemID.AntlionMandible, 5);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 
             recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.LeadBar, 10);
-            recipe.AddIngredient(ItemID.Lens, 2);
-            recipe.AddIngredient(ItemID.FlinxFur,2);
-            recipe.AddIngredient(ItemID.Gel,10);
-            recipe.AddIngredient(ItemID.Stinger,2);
-            recipe.AddIngredient(ItemID.AntlionMandible,2);
+            recipe.AddIngredient(ItemID.Lens, 5);
+            recipe.AddIngredient(ItemID.FlinxFur, 5);
+            recipe.AddIngredient(ItemID.Gel,20);
+            recipe.AddIngredient(ItemID.Stinger,5);
+            recipe.AddIngredient(ItemID.AntlionMandible,5);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}

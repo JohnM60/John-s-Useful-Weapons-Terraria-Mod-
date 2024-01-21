@@ -33,6 +33,7 @@ namespace Johns_Useful_Weapons.Content.Items
 			recipe.AddIngredient(ItemID.Campfire, 1);
 			recipe.AddIngredient(ItemID.Trapdoor, 1);
 			recipe.AddIngredient(ItemID.SandBlock, 4);
+			recipe.AddIngredient(ItemID.Switch, 1);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 
@@ -43,6 +44,7 @@ namespace Johns_Useful_Weapons.Content.Items
 			recipe.AddIngredient(ItemID.Campfire, 1);
 			recipe.AddIngredient(ItemID.Trapdoor, 1);
 			recipe.AddIngredient(ItemID.SandBlock, 4);
+			recipe.AddIngredient(ItemID.Switch, 1);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}

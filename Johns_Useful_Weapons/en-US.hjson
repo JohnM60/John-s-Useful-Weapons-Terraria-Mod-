@@ -42,16 +42,22 @@ Mods: {
 
 			HostileSword: {
 				DisplayName: Hostile Sword
-				Tooltip:
-					'''
-					Makes friendly npcs hostile
-					May hurt the player
-					'''
+				Tooltip: Makes friendly npcs hostile, may hurt the player
 			}
 
 			AiChangerSword: {
 				DisplayName: AI Changer Sword
 				Tooltip: Changes the AI of enemies
+			}
+
+			NpcChangerSword: {
+				DisplayName: Npc Changer Sword
+				Tooltip: Changes the npc to a different one
+			}
+
+			ProjectileSpawnerSword: {
+				DisplayName: Projectile Spawner Sword
+				Tooltip: Shoots random projectiles, hit with sword to change projectile
 			}
 		}
 	}

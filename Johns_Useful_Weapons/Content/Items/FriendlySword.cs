@@ -28,21 +28,25 @@ namespace Johns_Useful_Weapons.Content.Items
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.IronBar, 10);
-			recipe.AddIngredient(ItemID.Daybloom, 5);
-			recipe.AddIngredient(ItemID.Shiverthorn, 5);
-			recipe.AddIngredient(ItemID.Waterleaf, 5);
-			recipe.AddIngredient(ItemID.Blinkroot, 5);
-			recipe.AddIngredient(ItemID.Moonglow, 5);
+			recipe.AddIngredient(ItemID.Daybloom, 10);
+			recipe.AddIngredient(ItemID.Shiverthorn, 10);
+			recipe.AddIngredient(ItemID.Waterleaf, 10);
+			recipe.AddIngredient(ItemID.Blinkroot, 10);
+			recipe.AddIngredient(ItemID.Moonglow, 10);
+			recipe.AddIngredient(ItemID.SkyBlueFlower, 2);
+			recipe.AddIngredient(ItemID.YellowMarigold, 2);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 
 			recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.LeadBar, 10);
-			recipe.AddIngredient(ItemID.Daybloom, 5);
-			recipe.AddIngredient(ItemID.Shiverthorn, 5);
-			recipe.AddIngredient(ItemID.Waterleaf, 5);
-			recipe.AddIngredient(ItemID.Blinkroot, 5);
-			recipe.AddIngredient(ItemID.Moonglow, 5);
+			recipe.AddIngredient(ItemID.Daybloom, 10);
+			recipe.AddIngredient(ItemID.Shiverthorn, 10);
+			recipe.AddIngredient(ItemID.Waterleaf, 10);
+			recipe.AddIngredient(ItemID.Blinkroot, 10);
+			recipe.AddIngredient(ItemID.Moonglow, 10);
+			recipe.AddIngredient(ItemID.SkyBlueFlower, 2);
+			recipe.AddIngredient(ItemID.YellowMarigold, 2);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}
